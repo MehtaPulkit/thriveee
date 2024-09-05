@@ -12,7 +12,7 @@ import {
 
 const SimpleLineGraph = ({data}) => {
   return (
-    <LineChart width={400} height={300} data={data}>
+    <LineChart width={600} height={300} data={data}>
     <CartesianGrid strokeDasharray="3 3" />
     <XAxis dataKey="name" padding={{ left: 30, right: 30 }} />
     <YAxis />

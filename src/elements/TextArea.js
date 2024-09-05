@@ -3,7 +3,6 @@ import React from "react";
 const TextArea = ({
   id,
   name,
-  className,
   required,
   label,
   register,
