@@ -94,7 +94,7 @@ const DashboardHome = () => {
       className="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900"
     >
       <main>
-        <div className="px-4 pt-6">
+        <div className="px-4 pt-6 max-w-[1150px]">
           <div className="flex justify-between my-6 flex-col md:flex-row h-8">
             <Welcome />
             {/* <img alt="infographic" src={info} className="w-64 rounded-lg" /> */}
