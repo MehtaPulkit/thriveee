@@ -3,7 +3,7 @@ import manageImg from "../../assets/Manage-img.svg";
 
 const Welcome = () => {
   return (
-    <div className="mt-2 mb-6">
+    <div>
       <h1 className="font-semibold text-2xl tracking-wide dark:text-white">
         Overview
       </h1>

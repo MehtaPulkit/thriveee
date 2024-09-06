@@ -95,7 +95,7 @@ const DashboardHome = () => {
     >
       <main>
         <div className="px-4 pt-6 max-w-[1150px]">
-          <div className="flex justify-between my-6 flex-col md:flex-row h-8">
+          <div className="flex justify-between my-6 flex-row h-8">
             <Welcome />
             {/* <img alt="infographic" src={info} className="w-64 rounded-lg" /> */}
             <button className="flex gap-2 bg-white  p-2 justify-center items-center rounded-md shadow-lg dark:bg-gray-800 dark:text-white text-sm">
