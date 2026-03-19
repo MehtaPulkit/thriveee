@@ -1,11 +1,10 @@
-import { useRef, useState, useEffect } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch } from "react-redux";
-import { setCredentials } from "./authSlice";
-import { useLoginMutation } from "./authApiSlice";
-import usePersist from "../../hooks/usePersist";
-import useTitle from "../../hooks/useTitle";
+import { Link, useNavigate } from "react-router-dom";
 import PulseLoader from "react-spinners/PulseLoader";
+import usePersist from "../../hooks/usePersist";
+import { useLoginMutation } from "./authApiSlice";
+import { setCredentials } from "./authSlice";
 
 const Login = () => {
   const userRef = useRef();
@@ -80,7 +79,7 @@ const Login = () => {
               clipRule="evenodd"
             />
           </svg>
-          Thriveee
+          Investio
         </Link>
         <div className="bg-white rounded-lg shadow md:w-3/5">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

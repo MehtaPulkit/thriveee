@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900">
@@ -81,18 +79,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
         </div>
         <div className="px-4 py-6  bg-gray-700 md:flex md:items-center md:justify-between">
           <span className="text-sm  text-gray-300 sm:text-center">
-            © {new Date().getFullYear()} Thriveee. All Rights
-            Reserved.
+            © {new Date().getFullYear()} Investio. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-            <a
-              href="#"
-              className=" text-gray-400 hover:text-white"
-            >
+            <a href="#" className=" text-gray-400 hover:text-white">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -108,10 +101,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white"
-            >
+            <a href="#" className="text-gray-400 hover:text-white">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -123,10 +113,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Discord community</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white"
-            >
+            <a href="#" className="text-gray-400 hover:text-white">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -142,10 +129,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white"
-            >
+            <a href="#" className="text-gray-400 hover:text-white">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -161,10 +145,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white"
-            >
+            <a href="#" className="text-gray-400 hover:text-white">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"

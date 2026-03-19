@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Facebook from "../../hooks/IconHooks/Facebook";
 import Insta from "../../hooks/IconHooks/Insta";
@@ -32,16 +31,16 @@ const DashboardFooter = () => {
             href="#"
             className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
           >
-            <Facebook/>
+            <Facebook />
           </a>
           <a
             href="#"
             className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
           >
-           <Insta/>
+            <Insta />
           </a>
           <a href="#">
-            <Twitter/>
+            <Twitter />
           </a>
         </div>
       </div>
@@ -52,7 +51,7 @@ const DashboardFooter = () => {
           className="hover:underline"
           target="_blank"
         >
-          Thriveee.com
+          Investio.com
         </a>
         . All rights reserved.
       </p>

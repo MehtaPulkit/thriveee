@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -37,7 +37,7 @@ const Header = () => {
             </svg>
 
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-              Thriveee
+              Investio
             </span>
           </Link>
 

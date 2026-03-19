@@ -1,20 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Input from "../../elements/Input";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import { Link, useLocation } from "react-router-dom";
+import { MaxNameLength, MinNameLength } from "../../config/minMax";
 import {
   emailPattern,
   mobilePattern,
   namePattern,
 } from "../../config/regexPatterns";
-import { MaxNameLength, MinNameLength } from "../../config/minMax";
-import Stepper from "../../hooks/Stepper";
-import SignupConfirmation from "./SignupConfirmation";
 import Checkbox from "../../elements/Checkbox";
-import { useCheckDuplicateMutation } from "../dashboard/account/user/userApiSlice";
-import SignupSecurity from "./SignupSecurity";
-import { useLocation } from "react-router-dom";
+import Input from "../../elements/Input";
+import Stepper from "../../hooks/Stepper";
 import { toastAlerts } from "../../hooks/utils";
+import { useCheckDuplicateMutation } from "../dashboard/account/user/userApiSlice";
+import SignupConfirmation from "./SignupConfirmation";
+import SignupSecurity from "./SignupSecurity";
 const Signup = () => {
   const [step, setStep] = useState({
     shortName: "Personal",
@@ -114,7 +113,7 @@ const Signup = () => {
                 clipRule="evenodd"
               />
             </svg>
-            Thriveee
+            Investio
           </Link>
 
           <div className="hidden md:block p-6 rounded-lg semi-white">
@@ -244,8 +243,8 @@ const Signup = () => {
                           register={register}
                           label={
                             <>
-                              By signing up, you are creating a Thriveee
-                              account, and you agree to Thriveee’s{" "}
+                              By signing up, you are creating a Investio
+                              account, and you agree to Investio’s{" "}
                               <a
                                 className="text-blue-600 text-primary-600 dark:text-primary-500 font-semibold"
                                 href="#"

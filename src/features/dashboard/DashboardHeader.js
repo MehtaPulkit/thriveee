@@ -1,17 +1,21 @@
-import React, { useState } from "react";
-import useDarkMode from "../../hooks/useDarkMode";
+import { BellIcon } from "@heroicons/react/16/solid";
+import {
+  Bars3CenterLeftIcon,
+  MoonIcon,
+  SunIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/solid";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useSendLogoutMutation } from "../auth/authApiSlice";
-import useAuth from "../../hooks/useAuth";
 import { backendURL } from "../../config/connection";
 import ThriveeeIcon from "../../hooks/IconHooks/ThriveeeIcon";
-import { BellIcon } from "@heroicons/react/16/solid";
-import { MoonIcon, SunIcon, XMarkIcon } from "@heroicons/react/24/solid";
-import { Bars3CenterLeftIcon } from "@heroicons/react/24/solid";
+import useAuth from "../../hooks/useAuth";
+import useDarkMode from "../../hooks/useDarkMode";
+import { useSendLogoutMutation } from "../auth/authApiSlice";
 const DashboardHeader = ({ menuOpen, setMenuOpen }) => {
   const [colorTheme, setTheme] = useDarkMode();
   const [darkSide, setDarkSide] = useState(
-    colorTheme === "light" ? true : false
+    colorTheme === "light" ? true : false,
   );
 
   const toggleDarkMode = (checked) => {
@@ -49,7 +53,7 @@ const DashboardHeader = ({ menuOpen, setMenuOpen }) => {
               <Link to="/" className="flex ml-2 md:mr-24">
                 <ThriveeeIcon />
                 <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                  Thriveee
+                  Investio
                 </span>
               </Link>
             </div>

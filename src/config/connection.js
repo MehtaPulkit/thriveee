@@ -1,2 +1,1 @@
-export const backendURL="https://thriveee-api.onrender.com"
-// "http://localhost:3500"
+export const backendURL="http://localhost:3500"

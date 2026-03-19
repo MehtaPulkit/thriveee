@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
@@ -7,7 +6,7 @@ const Banner = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center banner-section lg:py-16">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none drop-shadow-[2px 2px 4px rgba(0, 0, 0, 0.5)] text-white text-left md:text-5xl lg:text-6xl dark:text-white">
           Become master of your investments with{" "}
-          <span className="linear-wipe">Thriveee</span>
+          <span className="linear-wipe">Investio</span>
         </h1>
         <p className="mb-8 text-lg text-left font-normal text-gray-500 lg:text-xl max-w-lg dark:text-gray-400">
           Unlock your investment potential with our all-in-one management portal
